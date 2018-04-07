@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- HAG -->
+<root>
+	<!-- [prefix]platfrom_version(suffix) -->
+	<prefix>SDV1</prefix>
+	<platform>PerfAutoTest</platform>
+	<version>1.0.0.100</version>
+	<suffix>Test</suffix>
+	<!-- 性能测试脚本单板 -->
+	<host>192.168.5.121</host>
+	<user>root</user>
+	<port>22</port>
+	<pw>huawei@123</pw>
+	<!-- 执行时间(s) -->
+	<seconds>180</seconds>
+	<!-- 延时统计性能(s) -->
+	<delay>10</delay>
+	<!-- Jmeter线程数 -->
+	<threadNum>10</threadNum>
+	<!-- Jmeter脚本的目录 -->
+	<jmxPath>/home/tools/apache-jmeter-4.0</jmxPath>
+	<!-- CI执行开始的时间，如：凌晨两点 - 02 -->
+	<CITime>14</CITime>
+
+	<!-- 邮箱用户名&密码 -->
+	<mailuser>pwx478445</mailuser>
+	<mailpw>pf@222222</mailpw>
+	<!-- 邮件发送人 -->
+	<sender>pengfei19@huawei.com</sender>
+	<!-- 邮件接收人s -->
+	<receives>
+		<receive>pengfei19@huawei.com</receive>
+	</receives>
+</root>

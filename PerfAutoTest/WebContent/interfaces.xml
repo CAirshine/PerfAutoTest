@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- HAG -->
+<interfaces>
+	<jmxtest>
+		<desc>测试</desc>
+		<script>jmxtest</script>
+		<boards>
+			<board index="1">client</board>
+			<board index="2">serve</board>
+		</boards>
+	</jmxtest>
+</interfaces>
